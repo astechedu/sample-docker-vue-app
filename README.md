@@ -1,8 +1,5 @@
 # Dockerized Vue App
 
-# vue-app
-
-
 Dockerfile: 
 
 
