@@ -2,6 +2,15 @@
 
 # vue-app
 
+#Building image
+
+	docker build . -t dockerized_vue
+
+#Running container
+
+	docker run --name vue-app -p 8080:80 -d dockerized_vue
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
